@@ -1,3 +1,3 @@
 add_executable(demo main.c)
 
-link_libraries(demo pthread)
+target_link_libraries(demo pthread)

@@ -3,4 +3,4 @@ project(Demo)
 
 add_subdirectory(src/)
 
-#CMAKE_C_FLAGS
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra")
