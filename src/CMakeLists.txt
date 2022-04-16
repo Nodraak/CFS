@@ -1,9 +1,8 @@
+add_subdirectory(lib/)
+
 add_executable(
     demo
-    main.c
-    task.c
-    scheduler.c
-    modules.c
+    main.c modules.c
 )
-
-target_link_libraries(demo pthread)
+include_directories(lib/inc/)
+target_link_libraries(demo cfs-lib)

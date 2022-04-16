@@ -1,6 +1,6 @@
 # README
 
-*cFS From Scratch*
+*CFS: cFS From Scratch*
 
 ## Features
 
