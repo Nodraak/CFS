@@ -14,7 +14,7 @@ def build(c):
         && cd build/
             && cmake ..
             && make demo
-    """))
+    """), pty=True)
 
 @task(build)
 def run(c):
